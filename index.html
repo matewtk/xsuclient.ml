@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="enot" content="1461654951739g0jz4xkAfeXv2gxkRb2ib5sW9-C8RlqU" />
+<title>xsu! client</title>
+<link rel="stylesheet" href="./css/index.css">
+<link rel="icon" type="image/x-icon" href="/svg/logo.png">
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<div class="container">
+<div class="main">
+<div class="main__logo" id="logo">
+
+<p>xsu! Client</p>
+</div>
+<div class="main__info">
+<div class="main__info__status">
+<p><span id="current__status">Currently the status of the client/website : </span><span class="span__orange" id="current__status__status">on fully recode</span></p>
+</div>
+<div class="main__info__language">
+</div>
+</div>
+<div class="main__socials">
+<ul>
+<li><a href="https://twitter.com/officialxsu">Twitter</a></li>
+<span class="span__orange">•</span>
+<li><a href="hhttps://www.youtube.com/channel/UCigp5xkp12i5--U7DM8QZjA">Youtube</a></li>
+
+
+
+</ul>
+</div>
+
+
+
+<footer>
+<div class="main__footer">
+<p><span class="span__orange">xsu! client</span> © 2021-2022</p>
+<p>Powered by <span class="span__blue" id="nickname">matw</span></p>
+</div>
+</footer>
+</div>
+</div>
+<script src="./js/particles.js"></script>
+<script src="./js/cookie.js"></script>
+<script src="./js/discord.js"></script>
+<script type="module">
+            var p_username = document.getElementById("nickname")
+            p_username.innerText = await getRandomUsername()
+        </script>
+
+</body>
+</html>
